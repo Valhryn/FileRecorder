@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<StackPane maxHeight="Infinity" maxWidth="Infinity" minHeight="-820" minWidth="-1920" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ApplicationController">
+   <children>
+      <VBox alignment="BASELINE_CENTER">
+         <children>
+            <Button fx:id="ars_magica_core_book" mnemonicParsing="false" text="Download Ars Magica 5e Core Book" onAction="#open_core_book"/>
+            <Button fx:id="ars_magica_cities_guild" mnemonicParsing="false" text="Download Ars Magica 5e Citys And Guilds" />
+         </children>
+      </VBox>
+   </children>
+</StackPane>
