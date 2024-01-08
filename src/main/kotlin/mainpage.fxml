@@ -7,8 +7,7 @@
    <children>
       <VBox alignment="BASELINE_CENTER" prefHeight="480.0" prefWidth="384.0" fx:id="pdf_buttons">
          <children>
-            <Button fx:id="ars_magica_core_book" mnemonicParsing="false" onAction="#click_book" text="Download Ars Magica 5e Core Book" />
-            <Button fx:id="ars_magica_cities_guild" mnemonicParsing="false" onAction="#click_book" text="Download Ars Magica 5e Citys And Guilds" />
+            <Button fx:id="ars_magica_core_book" mnemonicParsing="false" onAction="#openBook" text="Download Ars Magica 5e Core Book" />
          </children>
       </VBox>
    </children>
