@@ -3,13 +3,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<StackPane maxHeight="Infinity" maxWidth="Infinity" minHeight="480" minWidth="640" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ApplicationController">
+<StackPane maxHeight="Infinity" maxWidth="Infinity" minHeight="768" minWidth="1024" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ApplicationController">
    <children>
-      <VBox alignment="BASELINE_CENTER">
+      <VBox alignment="BASELINE_CENTER" prefHeight="480.0" prefWidth="384.0" fx:id="pdf_buttons">
          <children>
-            <Button fx:id="ars_magica_core_book" mnemonicParsing="false" text="Download Ars Magica 5e Core Book" onAction="#open_core_book"/>
-            <Button fx:id="ars_magica_cities_guild" mnemonicParsing="false" text="Download Ars Magica 5e Citys And Guilds" />
+            <Button fx:id="ars_magica_core_book" mnemonicParsing="false" onAction="#click_book" text="Download Ars Magica 5e Core Book" />
+            <Button fx:id="ars_magica_cities_guild" mnemonicParsing="false" onAction="#click_book" text="Download Ars Magica 5e Citys And Guilds" />
          </children>
       </VBox>
    </children>
